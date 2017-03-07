@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "GUID",
+      "data": [
+        {
+          "text": "NAME"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "GUID",
+      "data": [
+        {
+          "text": "Can I eat NAME?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "GUID",
+      "data": [
+        {
+          "text": "is NAME illegal?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "GUID",
+      "data": [
+        {
+          "text": "is NAME legal?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "GUID",
+  "name": "is NAME legal?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "NAME is RESULT.  EXTRA"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
